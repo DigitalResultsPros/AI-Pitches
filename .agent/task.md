@@ -1,0 +1,53 @@
+# AI-Pitches - Project Tasks
+
+- [x] Initialize SvelteKit Project <!-- id: 0 -->
+    - [x] Run `npm create svelte@latest` <!-- id: 1 -->
+    - [x] Install dependencies <!-- id: 2 -->
+    - [x] Configure TailwindCSS <!-- id: 3 -->
+- [ ] Architecture & Documentation <!-- id: 4 -->
+    - [x] Create SPEC.md <!-- id: 5 -->
+    - [x] Create README.md <!-- id: 6 -->
+    - [x] Create TODO.md <!-- id: 7 -->
+- [x] Core Infrastructure - Frontend <!-- id: 8 -->
+    - [x] Install Threlte/Three.js <!-- id: 9 -->
+    - [x] Setup Layouts (Public vs App) <!-- id: 10 -->
+        - [x] Navbar
+        - [x] Footer
+    - [x] Implement Basic 3D Scene Background <!-- id: 11 -->
+- [/] Authentication (Supabase) <!-- id: 12 -->
+    - [x] Install Supabase Client <!-- id: 13 -->
+    - [x] Create Auth Helper/Store <!-- id: 14 -->
+    - [x] Build Login/Signup Pages <!-- id: 15 -->
+- [/] Public Section <!-- id: 16 -->
+    - [x] Landing Page (Hero, Value Prop) <!-- id: 17 -->
+        - [x] Modular Design (V1/V2)
+        - [x] Particles Background (Merged into V2 Geometric)
+    - [x] Blog Index & Post View <!-- id: 18 -->
+- [x] Members Section <!-- id: 19 -->
+    - [x] Database Schema Expansion (Multi-App Support Ready) <!-- id: 22 -->
+    - [x] Dashboard (Protected Route) <!-- id: 20 -->
+    - [x] Profile Settings (Registry Management) <!-- id: 21 -->
+    - [x] /profile route: Data sync & update actions <!-- id: 45 -->
+    - [x] High-tech Registry Form UI <!-- id: 46 -->
+    - [x] Link normalization from Dashboard <!-- id: 47 -->
+- [x] Auth Restoration & Polarization <!-- id: 27 -->
+- [x] Community Features <!-- id: 23 -->
+    - [x] Database Schema: Messages & Forum (SQLite Migration) <!-- id: 24 -->
+    - [x] Public Community Board (Categorized) <!-- id: 26 -->
+    - [x] Private Messaging: Compose & Inbox detail <!-- id: 25 -->
+- [/] 23rd Century UI Aesthetic Overhaul <!-- id: 36 -->
+    - [x] Design System: Neo-Cyber Colors & Typography <!-- id: 37 -->
+    - [x] Glassmorphic Navbar & Footer Refresh <!-- id: 38 -->
+    - [/] Immersive Component Effects (Glows, Outlines) <!-- id: 39 -->
+    - [ ] Dashboard: High-Tech Data Visualization style <!-- id: 40 -->
+- [x] Admin Communication Channel <!-- id: 41 -->
+    - [x] Identify/Designate System Admin role <!-- id: 42 -->
+    - [x] "Contact Admin" entry point in Comms Deck <!-- id: 43 -->
+    - [x] Auto-provision Support thread <!-- id: 44 -->
+    - [x] Refinement & Deployment <!-- id: 32 -->
+    - [x] Admin Credit Adjustment <!-- id: 33 -->
+    - [x] Dockerization with SQLite Volume <!-- id: 34 -->
+        - [x] Dockerfile creation (adapter-node) <!-- id: 48 -->
+        - [x] Docker Compose suite (Volume persistence) <!-- id: 49 -->
+        - [x] Build verification <!-- id: 50 -->
+    - [x] Final UI/UX Polish <!-- id: 35 -->
