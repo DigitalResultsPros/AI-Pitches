@@ -18,7 +18,7 @@ FROM node:22-alpine AS runner
 WORKDIR /app
 
 # Install production native deps for better-sqlite3
-RUN apk add --no-cache python3 make g++ 
+RUN apk add --no-cache python3 make g++ && mkdir -p /app/data
 
 COPY --from=builder /app/build ./build
 COPY --from=builder /app/package.json ./package.json
