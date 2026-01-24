@@ -1,0 +1,17 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ai_pitches_db:/app/data
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=/app/data/local.db
+      # Pass Supabase environment variables
+      - PUBLIC_SUPABASE_URL=${PUBLIC_SUPABASE_URL}
+      - PUBLIC_SUPABASE_ANON_KEY=${PUBLIC_SUPABASE_ANON_KEY}
+    restart: unless-stopped
+
+volumes:
+  ai_pitches_db:
