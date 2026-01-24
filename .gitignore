@@ -22,3 +22,9 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Databases
+local.db
+local.db-journal
+local.db-shm
+local.db-wal
