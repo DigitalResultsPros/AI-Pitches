@@ -34,6 +34,12 @@ AI-Pitches is a high-performance, high-bandwidth communication platform connecti
 *   **Local State**: `local.db` (SQLite) stores messages, forum posts, and credit ledgers.
 *   **Sync**: Users are automatically synced from Supabase to local SQLite upon their first dashboard visit.
 
+### Testing
+*   **E2E Tests**: Comprehensive Playwright test suite covering authentication flows and key user journeys.
+*   **Test Coverage**: 11 test cases including login, registration, logout, validation, and landing page features.
+*   **Run Tests**: `npm run test:e2e` or `npx playwright test e2e/auth-flow.spec.ts`.
+*   **Test Helpers**: Reusable utilities for authentication, navigation, element interaction, and waiting.
+
 ## 🛰️ Launch Protocol (Deployment)
 
 Initialize the platform using the following coordinated command:

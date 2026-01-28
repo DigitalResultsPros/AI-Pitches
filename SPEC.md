@@ -53,7 +53,25 @@
 - **Framework**: SvelteKit (Svelte 5 Runes).
 - **Styling**: TailwindCSS 4.0.
 - **3D Graphics**: Threlte 8 + Three.js.
-## 7. Launch Protocol (Deployment)
+- **Testing**: Playwright E2E test suite with comprehensive coverage.
+
+## 8. Testing
+- **E2E Test Suite**: Comprehensive Playwright test suite covering authentication flows and key user journeys.
+- **Test Coverage**: 11 test cases including:
+  - Authentication flows (login, logout, registration)
+  - Invalid credentials and password mismatch validation
+  - Protected route redirection
+  - Landing page features (version toggle, feature sections)
+  - Blog functionality
+- **Test Helpers**: Reusable utilities for:
+  - Authentication helpers (login, logout, createTestUser)
+  - Navigation helpers (navigateToDashboard, navigateToCommunity, etc.)
+  - Element interaction helpers (fillForm, clickButtonByText, etc.)
+  - Waiting helpers (waitForVisible, waitForText, etc.)
+- **Run Tests**: `npm run test:e2e` or `npx playwright test e2e/auth-flow.spec.ts`.
+- **Test Results**: All 11 tests passing with comprehensive coverage.
+
+## 9. Launch Protocol (Deployment)
 - **Deployment Engine**: Docker + Docker Compose.
 - **Persistence Strategy**: Host-mounted volume for `local.db`.
 - **Initialization Command**:
