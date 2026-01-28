@@ -2,7 +2,7 @@ services:
   web:
     build: .
     expose:
-      - "3000"
+      - "3000:3000"
     volumes:
       - ai_pitches_db:/app/data
     environment:
